@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 irobotcreate2ros
 ===
 Ros node for iRobot Create 2.
@@ -21,7 +22,7 @@ To simulate the robot in Gazebo you first have to add this lines to your bashrc:
 ```
 source /usr/share/gazebo/setup.sh
 export GAZEBO_MODEL_PATH=$GAZEBO_MODEL_PATH:$(rospack find irobotcreate2)
-export GAZEBO_RESOURCE_PATH=$GAZEBO_RESOURCE_PATH:$(rospack find irobotcreate2)
+export GAZEBO_RESOURCE_PATH=$GAZEBO_RESOURCE_PATH:$(rospack find irobotcreate-1)
 ```
 
 Usage
@@ -57,3 +58,6 @@ you can read sensors (/battery, /buttons, /bumper, ...) and send commands (/cmd_
 rosrun irobotcreate2 irobot_joy.launch
 ```
 to run both the basic software and ros joy to move the robot with a controller.
+=======
+# irobotcreate2ros
+>>>>>>> ea9b304c4994be8b70fb4d8362f1fb045e99e079
