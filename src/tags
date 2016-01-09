@@ -1,0 +1,58 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+MAX_ANG_VEL	joy_node.cpp	42;"	d	file:
+MAX_ANG_VEL	keyboard_node.cpp	43;"	d	file:
+MAX_LIN_VEL	joy_node.cpp	41;"	d	file:
+MAX_LIN_VEL	keyboard_node.cpp	42;"	d	file:
+NODE_VERSION	irobotcreate2.cpp	41;"	d	file:
+NODE_VERSION	irobotcreate2_lightweight.cpp	41;"	d	file:
+agent_selection_callback	joy_node.cpp	/^void joy_handler::agent_selection_callback(const std_msgs::String& msg)$/;"	f	class:joy_handler
+agent_selection_callback	keyboard_node.cpp	/^void keyboard_handler::agent_selection_callback(const std_msgs::String& msg)$/;"	f	class:keyboard_handler
+bumper_warning	irobotcreate2.cpp	/^std::atomic_bool bumper_warning;$/;"	v
+calc_range	listener.cpp	/^double calc_range(double intensity){$/;"	f
+change_mode	basic_commands.cpp	/^void change_mode(std::string cmd)$/;"	f
+change_topics	joy_node.cpp	/^void joy_handler::change_topics(std::string ns)$/;"	f	class:joy_handler
+cmdModeReceived	irobotcreate2.cpp	/^void cmdModeReceived(const std_msgs::String::ConstPtr& cmd_)$/;"	f
+cmdVelReceived	irobotcreate2.cpp	/^void cmdVelReceived(const geometry_msgs::Twist::ConstPtr& cmd_vel)$/;"	f
+cmdVelReceived	irobotcreate2_lightweight.cpp	/^void cmdVelReceived(const geometry_msgs::Twist::ConstPtr& cmd_vel)$/;"	f
+cooked	keyboard_node.cpp	/^struct termios cooked, raw;$/;"	v	typeref:struct:termios
+digitLedsReceived	irobotcreate2.cpp	/^void digitLedsReceived(const irobotcreate2::DigitLeds::ConstPtr& leds)$/;"	f
+frames	listener.cpp	/^const char *frames[6] = {"base_irbumper_left", $/;"	v
+iRC2	basic_commands.cpp	/^irobot::OpenInterface * iRC2;$/;"	v
+intensity	listener.cpp	/^double intensity[150];$/;"	v
+ir_warning	irobotcreate2.cpp	/^std::atomic_bool ir_warning;$/;"	v
+irdata	listener.cpp	/^int irdata[150] = {0}; $/;"	v
+joy_handler	joy_node.cpp	/^joy_handler::joy_handler()$/;"	f	class:joy_handler
+joy_receive	joy_node.cpp	/^void joy_handler::joy_receive(const sensor_msgs::Joy::ConstPtr& joy_msg)$/;"	f	class:joy_handler
+keyboard_handler	keyboard_node.cpp	/^keyboard_handler::keyboard_handler()$/;"	f	class:keyboard_handler
+keyboard_reading	keyboard_node.cpp	/^void keyboard_handler::keyboard_reading()$/;"	f	class:keyboard_handler
+kfd	keyboard_node.cpp	/^int kfd = 0;$/;"	v
+laser_freq	listener.cpp	/^const double laser_freq = 10; $/;"	v
+ledsReceived	irobotcreate2.cpp	/^void ledsReceived(const irobotcreate2::Leds::ConstPtr& leds)$/;"	f
+main	basic_commands.cpp	/^int main(int argc, char** argv)$/;"	f
+main	irobotcreate2.cpp	/^int main(int argc, char** argv)$/;"	f
+main	irobotcreate2_lightweight.cpp	/^int main(int argc, char** argv)$/;"	f
+main	joy_node.cpp	/^int main(int argc, char** argv)$/;"	f
+main	keyboard_node.cpp	/^int main(int argc, char** argv)$/;"	f
+main	listener.cpp	/^int main(int argc, char **argv)$/;"	f
+num_readings	listener.cpp	/^const unsigned int num_readings = 6; $/;"	v
+playSongReceived	irobotcreate2.cpp	/^void playSongReceived(const irobotcreate2::PlaySong::ConstPtr& song)$/;"	f
+port	basic_commands.cpp	/^std::string port;$/;"	v
+port	irobotcreate2.cpp	/^std::string port;$/;"	v
+port	irobotcreate2_lightweight.cpp	/^std::string port;$/;"	v
+prefixTopic	irobotcreate2.cpp	/^std::string prefixTopic(std::string prefix, char * name)$/;"	f
+prefixTopic	irobotcreate2_lightweight.cpp	/^std::string prefixTopic(std::string prefix, char * name)$/;"	f
+quit	keyboard_node.cpp	/^void quit(int sig)$/;"	f
+ranges	listener.cpp	/^double ranges[150];$/;"	v
+raw	keyboard_node.cpp	/^struct termios cooked, raw;$/;"	v	typeref:struct:
+roomba	irobotcreate2.cpp	/^irobot::OpenInterface * roomba;$/;"	v
+roomba	irobotcreate2_lightweight.cpp	/^irobot::OpenInterface * roomba;$/;"	v
+sensorListenerCallback	listener.cpp	/^void sensorListenerCallback$/;"	f
+songReceived	irobotcreate2.cpp	/^void songReceived(const irobotcreate2::Song::ConstPtr& song)$/;"	f
+sub_laser	listener.cpp	/^const int sub_laser = 2; $/;"	v
+~joy_handler	joy_node.cpp	/^joy_handler::~joy_handler()$/;"	f	class:joy_handler
+~keyboard_handler	keyboard_node.cpp	/^keyboard_handler::~keyboard_handler()$/;"	f	class:keyboard_handler

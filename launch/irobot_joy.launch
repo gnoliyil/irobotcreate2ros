@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+
+<launch>
+    <node name="joy" pkg="irobotcreate2" type="joy_node" respawn="false" output="screen"/>
+    <node name="joy_driver" pkg="joy" type="joy_node" respawn="false" output="screen"/>
+</launch>
